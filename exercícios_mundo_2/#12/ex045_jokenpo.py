@@ -12,7 +12,7 @@ while cont != 'N':
         print(f'Você escolheu \033[32m{esc}\033[m e eu escolhi \033[32m{sort}\033[m.')
         print('\033[4;1mIsso foi um \033[37mEMPATE\033[m\033[4;1m!\033[m')
     elif esc == sort and esc == 'TESOURA':
-        print(f'Você escolheu \033[35m{esc}\033[m e eu escolhi \033[35m{sort}\033[m.')
+        print(f'Você escolheu \033[33m{esc}\033[m e eu escolhi \033[33m{sort}\033[m.')
         print('\033[4;1mIsso foi um \033[37mEMPATE\033[m\033[4;1m!\033[m')
     elif esc == 'PEDRA' and sort == 'PAPEL':
         print(f'Você escolheu \033[35m{esc}\033[m e eu escolhi \033[32m{sort}\033[m.')
