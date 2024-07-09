@@ -1,4 +1,4 @@
-Códigos prontos:
+'''Códigos prontos:'''
 
 30: branco; 31: vermelho; 32: verde; 33: amarelo; 34: azul; 35: magenta; 36: ciano; 37: cinza;
 cores = {'limpa':'\033[m',

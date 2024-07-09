@@ -20,10 +20,10 @@ finish = 'S'
 while finish == 'S':
     num = int(input('\033[1mDigite um número \033[4minteiro\033[m: '))
     print('''\033[1mEscolha uma das bases para conversão:
-    [ 1 ] Converter para \033[1;32mBINÁRIO\033[m
-    [ 2 ] Converter para \033[1;33mOCTAL\033[m
-    [ 3 ] Converter para \033[1;34mHEXADECIMAL\033[m''')
-    opção = int(input('Sua opção: '))
+    \033[1m[ 1 ] Converter para \033[1;32mBINÁRIO\033[m
+    \033[1m[ 2 ] Converter para \033[1;33mOCTAL\033[m
+    \033[1m[ 3 ] Converter para \033[1;34mHEXADECIMAL\033[m''')
+    opção = int(input('\033[1mSua opção: '))
     if opção == 1:
         print(f'\033[1;32m{num}\033[m\033[1m convertido para BINÁRIO é igual a: \033[1;32m{bin(num)[2:]}.\033[m\033[1m')
         finish = str(input('Deseja continuar [S/N]:')).upper().strip()
