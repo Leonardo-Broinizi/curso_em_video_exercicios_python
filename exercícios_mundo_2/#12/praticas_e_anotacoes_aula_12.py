@@ -15,4 +15,4 @@ else:
     print(f'{cores['vermelho']}Seu nome é bem comum{cores['limpa']}.')
 print(f'{cores['verde']}Tenha um bom dia, {cores['azul']}{nome.capitalize()}\033[m{cores['limpa']}.')
 
-'''Diva interessante do professor Guanabara sobre uma maneira interessante de realizar a verificação de se determinada média é menor que 'X' e maior que 'Y'. Exemplo: 'if 7 > média >= 5:' '''
+'''Dica interessante do professor Guanabara sobre uma maneira interessante de realizar a verificação de se determinada média é menor que 'X' e maior que 'Y'. Exemplo: 'if 7 > média >= 5:' '''
