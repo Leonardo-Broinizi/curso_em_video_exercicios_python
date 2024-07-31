@@ -1,3 +1,5 @@
+#  Meu código ficou basicamente igual ao do professor:
+
 c = s = 0
 while True:
     n = int(input('Digite um número [999 para sair]: '))

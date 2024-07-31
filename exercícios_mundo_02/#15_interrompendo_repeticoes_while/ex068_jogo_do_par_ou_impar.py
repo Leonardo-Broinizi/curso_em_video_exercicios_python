@@ -1,9 +1,14 @@
-from unicodedata import normalize
+#   Procurei caprichar no visual do meu jogo. Mas, mesmo desconsiderando a estética,
+# prefiro meu código apenas por estar mais caprichado.
+
+#   Meu código:
+
+'''from unicodedata import normalize
 from random import randint
 from time import sleep
-print('\033[1;31m=' * 20)
+print('\033[1;31m=' * 21)
 print('\033[1;34mJOGO DO \033[35mPAR\033[1;34m ou \033[36mÍMPAR?')
-print('\033[1;31m=' * 20)
+print('\033[1;31m=' * 21)
 vitórias = 0
 while True:
     computador = randint(0,99)
@@ -53,4 +58,34 @@ if vitórias == 0:
 elif vitórias == 1:
     print(f'\033[1;34mVocê só venceu \033[1;33mUMA\033[1;34m vez hoje!')
 else:
-    print(f'\033[1;34mVocê venceu \033[1;33m{vitórias}\033[1;34m vezes hoje!')
+    print(f'\033[1;34mVocê venceu \033[1;33m{vitórias}\033[1;34m vezes hoje!') '''
+
+# Código do professor Guanabara:
+
+from random import randint
+v = 0
+while True:
+    jogador = int(input('Diga um valor: '))
+    computador = randint(1,10)
+    total = jogador + computador
+    tipo = ' '
+    while tipo not in 'PI':
+        tipo = str(input('Par ou ímpar? [P/I] ')).strip().upper()[0]
+    print(f'Você jogou {jogador} e o computador jogou {computador}. Total de {total} ', end='')
+    print('DEU PAR' if total % 2 == 0 else 'DEU ÍMPAR')
+    if tipo == 'P':
+        if total % 2 == 0:
+            print('Você VENCEU!')
+            v += 1
+        else:
+            print('Você PERDEU!')
+            break
+    elif tipo == 'I':
+        if total % 2 == 1:
+            print('Você VENCEU!')
+            v += 1
+        else:
+            print('Você PERDEU!')
+            break
+    print('Vamos jogar novamente...')
+print(f'GAME OVER! Você venceu {v} vezes.')

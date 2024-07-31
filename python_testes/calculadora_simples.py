@@ -1,6 +1,0 @@
-n1 = int(input('Digite um valor: '))
-n2 = int(input('Digite outro valor: '))
-print(f'A soma  é: {n1+n2}.', end=' ')
-print(f'A subtração  é: {n1-n2}.',end=' ')
-print(f'A multiplicação é: {n1*n2}.\n ')
-print(f'A divisão é: {n1/n2}.')
