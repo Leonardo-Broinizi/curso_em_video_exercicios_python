@@ -25,7 +25,7 @@ lanche = ('Hambúrger', 'Suco', 'Pizza', 'Pudim', 'Batata Frita')
 print(sorted(lanche)) # O método 'sorted' mostrará uma lista contendo os ítens da referida tupla em ordem alfabética (lembrando que isso não altera a tupla, que é imutável).
 print(lanche)'''
 
-
+'''
 #   Somando tuplas de um jeito simples:
 a = ('2', 5, 4)
 b = (5, 8, 1, '2')
@@ -38,3 +38,7 @@ print(c.count(5)) # O método 'count()' retornará quantas vezes o valor declara
 #   Propriedade INDEX
 print(c.index('2',1)) # A propriedade 'index' retornará o índice da posição do elemento em questão. Ela retornará apenas a posição do primeiro valor encontrado. Caso um número seja colocado após a vírgula, ele começará a procurar o elemento a partir daquele ponto no índice.
 
+
+a = ('Jose',  'Maria' , 'João')
+b = a + ('Francisco', 'Ricardo', 'Lucas')  # Concatenação de tuplas.
+print(b)'''
