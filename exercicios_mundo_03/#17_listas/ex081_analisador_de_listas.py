@@ -1,4 +1,6 @@
-lista = []
+#   Meu código:
+
+'''lista = []
 p5 = []
 c = 0
 while True:
@@ -19,4 +21,7 @@ if 5 not in lista:
 elif len(p5) > 1:
     print(f'O valor 5 foi digitado {len(p5)} vezes, nas posições {p5}.')
 else:
-    print(f'O valor 5 foi digitado na posição {lista.index(5)}.')
+    print(f'O valor 5 foi digitado na posição {lista.index(5)}.')'''
+
+
+

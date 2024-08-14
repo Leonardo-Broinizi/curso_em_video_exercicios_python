@@ -1,9 +1,9 @@
-#   Fiz dois códigos pois, após terminar o primeiro, ouvi o professor pedir pra fazer esse
+#   Fiz dois códigos pois após terminar o primeiro ouvi o professor pedir para fazer esse
 # exercício de maneira um pouco diferente do que eu havia feito.
 
 #   Meu primeiro código:
 
-'''lista = []
+lista = []
 pares = []
 ímpares = []
 while True:
@@ -47,6 +47,8 @@ elif len(ímpares) == 1:
 else:
     print('\033[31mNão foram digitados números ímpares.')
 
+
+
 #   Meu segundo código:
 
 lista = []
@@ -67,5 +69,5 @@ for p, n in enumerate(lista):
 print('\033[32m','-='*34+'-')
 print(f'\033[33mA lista completa é {lista}')
 print(f'\033[34mA lista de pares é {pares}')
-print(f'\033[31mA lista de ímpares é {ímpares}')'''
+print(f'\033[31mA lista de ímpares é {ímpares}')
 
