@@ -95,7 +95,7 @@ print(pessoas[2])
 print(pessoas[0][0])
 print(pessoas[1][1][2])'''
 
-teste = list()
+'''teste = list()
 teste.append('Leonardo')
 teste.append(32)
 galera = []
@@ -105,4 +105,4 @@ galera.append(teste[:]) # É importante não esquecer que, caso se faça uma có
 teste[0] = 'Maria'
 teste[1] = 22
 galera.append(teste[:])
-print(galera)
+print(galera)'''

@@ -39,7 +39,7 @@ print(f'{leves[-1]}.')'''
 
 #    Código do professor Guanabara:
 
-temp = []
+'''temp = []
 princ = []
 mai = men = 0
 while True:
@@ -67,5 +67,4 @@ print()
 print(f'O menor peso foi de {men}Kg. Peso de ', end='')
 for p in princ:
     if p[1] == men:
-        print(f'[{p[0]}] ', end='')
-
+        print(f'[{p[0]}] ', end='')'''
