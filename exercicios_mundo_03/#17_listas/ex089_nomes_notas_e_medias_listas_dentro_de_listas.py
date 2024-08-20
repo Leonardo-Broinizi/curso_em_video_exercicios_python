@@ -15,9 +15,15 @@ print('As médias dos alunos foram: ')
 for p, nomes in enumerate(boletim[0]):
     print(f'A média do aluno {nomes} é: {(boletim[1][p] + boletim[2][p]) / 2:.2f}')'''
 
-#   Segunda tentativa:
+#   Considerações após assistir o vídeo de resposta do professor: O código do professor já leva a média calculada dentro
+# da lista, coisa que não fiz. Por esse ponto ele é mais completo que o meu. Também a forma como o código do professor
+# incorpora os dados na lista completa também foi mais engenhoso e eficiente que o meu, já que fazia entrar de uma vez
+# uma lista com nome, outra lista com ambas as notas, e a média, por vez. Meu código vazia entrar uma lista com nome e outra lista com
+# as notas.
 
-boletim = []
+#   Minha segunda tentativa:
+
+'''boletim = []
 while True:
     r = ' '
     boletim.append([str(input('Nome: '))])
@@ -42,4 +48,32 @@ while True:
         print(f'As notas de {boletim[esc][0]} são {boletim[esc][1]}')
     else:
         print('Número não encontrado! Por favor, tente novamente.')
+    print('-' * 35)'''
+
+#   Código do professor Guanabara:
+
+ficha = list()
+while True:
+    nome = str(input('Nome: '))
+    nota1 = float(input('Nota 1: '))
+    nota2 = float(input('Nota 2: '))
+    media = (nota1 + nota2) / 2
+    ficha.append([nome, [nota1, nota2], media])
+    resp = str(input('Quer continuar? [S/N] '))
+    if resp in 'Nn':
+        break
+print('-=' * 30)
+print(f'{'No.':<4}{'NOME':10}{'MÉDIA':>8}')
+print('-' * 26)
+for i, a in enumerate(ficha):
+    print(f'{i:<4}{a[0]:<10}{a[2]:>8.1f}')
+while True:
     print('-' * 35)
+    opc = int(input('Mostrar notas de qual aluno? (999 interrompe): '))
+    if opc == 999:
+        print('FINALIZANDO...')
+        break
+    if opc <= len(ficha) - 1:
+        print(f'Notas de {ficha[opc][0]} são {ficha[opc][1]}')
+
+print('<<< VOLTE SEMPRE >>>')
