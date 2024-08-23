@@ -45,3 +45,8 @@ for estado in Brasil:
 print()
 for estado in Brasil:
     print(f'UF: {estado['uf']}. Sigla: {estado['sigla']}.')'''
+
+
+notas = {'Léo': 10, 'João': 8, 'Maria': 9, 'Aline': 7}
+notas['Maria'] = notas.pop('Maria')
+print(notas)
