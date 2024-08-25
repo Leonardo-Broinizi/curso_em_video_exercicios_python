@@ -19,7 +19,3 @@ print(f'O jogador {jogador['nome']} jogou {npartidas} partidas.')
 for c in range(npartidas):
     print(f'    => Na partida {c}, fez {jogador['gols'][c]} gols.')
 print(f'Foi um total de {jogador['total']} gols.')
-
-
-
-
