@@ -21,7 +21,6 @@ for c in range(npartidas):
     print(f'    => Na partida {c+1}, fez {jogador['gols'][c]} gols.')
 print(f'Foi um total de {jogador['total']} gols.')'''
 
-#    Finalmente deixei de preguiça e copiei o código do professor rs:
 
 #    Meu código (não consegui formatar a variável da lista de gols feitos para ocuparem todas o
 # mesmo número de colunas):
@@ -67,6 +66,8 @@ while True:
         for p, g in enumerate(jogadores[res-1]['gols']):
             print(f'No jogo {p+1} fez {g} gols.')'''
 
+
+#    Finalmente deixei de preguiça e copiei o código do professor rs:
 #    Código do professor Guanabara:
 
 jogador = {}
