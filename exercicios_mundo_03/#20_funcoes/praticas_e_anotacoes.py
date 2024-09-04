@@ -32,26 +32,4 @@ while True:
         letreiro(texto_central)'''
 
 
-'''def desempacotador(* núm):
-    print(núm)
-desempacotador(1, 3, 2, 5, 8, 0, 9)'''
-
-'''def dobra(lst):
-    pos = 0
-    while pos < len(lst):
-        lst[pos] *= 2
-        pos += 1
-valores = [7, 2, 5, 0, 4]
-dobra(valores)
-print(valores)'''
-
-
-def soma (* valores):
-    res = 0
-    for num in valores:
-        res += num
-    print(res)
-
-soma(5, 2)
-soma(2, 9, 4)
 
