@@ -1,4 +1,4 @@
-#    Meu código está relativamente parecido com o do professor. O dele está melhor no tratamento com
+#    O código do professor está mais enxuto que o meu, se utilizando bem de iterações, além de ter formatado melhor
 # o datetime, por isso preciso aprender cada vez mais a sintaxe da linguagem para conhecer as possibilidades.
 #    Meu código:
 

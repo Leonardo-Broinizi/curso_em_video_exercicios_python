@@ -4,8 +4,9 @@ def escreva(frase):
     print(f'   {frase}' if len(frase) // 2 == 1 else f'    {frase}')
     print('<>' * t)
 while True:
-    frase = str(input('Digite a mensagem central ou SAIR: ')).strip()
+    frase = str(input('Digite a mensagem central ou SAIR: ')).strip().upper()
     if frase == 'SAIR':
         print('Até mais!')
+        break
     else:
         escreva(frase)

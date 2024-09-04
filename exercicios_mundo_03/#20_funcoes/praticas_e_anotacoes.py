@@ -46,7 +46,6 @@ dobra(valores)
 print(valores)'''
 
 
-
 def soma (* valores):
     res = 0
     for num in valores:
