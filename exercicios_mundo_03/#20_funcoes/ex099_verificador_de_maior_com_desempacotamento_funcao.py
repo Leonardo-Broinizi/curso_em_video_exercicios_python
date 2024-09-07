@@ -23,7 +23,7 @@ maior(números)
 
 #    Minha segunda versão:
 
-from time import sleep
+'''from time import sleep
 def maior(* valores):
     print('-=' * 20 + '-')
     print('Analisando os valores passados...')
@@ -42,4 +42,29 @@ maior(0)
 a = int(input('Digite o 1º valor: '))
 b = int(input('Digite o 2º valor: '))
 c = int(input('Digite o 3º valor: '))
-maior(a, b, c)
+maior(a, b, c)'''
+
+from time import sleep
+def maior(* núm):
+    cont = maior = 0
+    print('-=' * 30)
+    print('Analisando os valores passados...')
+    for valor in núm:
+        print(f'{valor} ', end='')
+        sleep(0.3)
+        if cont == 0:
+            maior = valor
+        else:
+            if valor > maior:
+                maior = valor
+        cont += 1
+    print(f'Foram informados {cont} valores ao todo.')
+    print(f'O maior valor informado foi {maior}.')
+#    Código do professor Guanabara:
+
+# Programa principal:
+maior(2, 9, 4, 5, 7, 1)
+maior(4, 7, 0)
+maior(1, 2)
+maior(6)
+maior()

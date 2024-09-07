@@ -15,8 +15,7 @@ def tabuada():
 
 nome = str(input('Qual é o seu nome? ')).strip()
 saudacao(nome)  # Aqui usamos a função com o argumento "Bentinho", que será usado como entrada
-tabuada()  # Chama a função para mostrar a tabuada.
-'''
+tabuada()  # Chama a função para mostrar a tabuada.'''
 
 '''def letreiro(texto_central):
     n = len(texto_central) / 3
@@ -30,6 +29,4 @@ while True:
         break
     else:
         letreiro(texto_central)'''
-
-
 
