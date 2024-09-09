@@ -1,6 +1,6 @@
 #    Meu código:
 
-'''from random import randint
+from random import randint
 from time import sleep
 def sorteio(números):
     print('Sorteando os valores: ', end='')
@@ -18,7 +18,7 @@ def somaPar(números, sp):
 números = []
 sp = 0
 sorteio(números)
-somaPar(números, sp)'''
+somaPar(números, sp)
 
 #    Código do professor Guanabara:
 
