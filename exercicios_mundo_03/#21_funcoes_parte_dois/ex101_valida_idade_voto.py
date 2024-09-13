@@ -35,9 +35,25 @@ def voto(ano, natal):
 
 ano = date.today()
 ano = ano.year
+print('-' * 30)
 n = int(input('Em que ano você nasceu? '))
 print(voto(ano, n))'''
 
 
-#   Código do professor Guanabara:
+#   Código do professor Guanabara (ficou bem mais econômico que os meus):
 
+
+def voto(ano):
+    from datetime import date # O professor explicou na resolução que, deixando essa importação aqui, dentro da função, seu escopo de importação a manterá aqui, onde ela será necessária, o que economiza memória.
+    atual = date.today().year
+    idade = atual - ano
+    if idade < 16:
+        return f'Com {idade} anos: NÃO VOTA.'
+    elif 16 <= idade < 18 or idade > 65:
+        return f'Com {idade} anos: VOTO OPCIONAL.'
+    else:
+        return f'Com {idade} anos: VOTO OBRIGATÓRIO.'
+
+# Programa principal
+nasc = int(input('Em que ano você nasceu? '))
+print(voto(nasc))

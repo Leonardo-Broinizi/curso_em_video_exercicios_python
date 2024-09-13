@@ -19,16 +19,16 @@ leiaInt()'''
 
 #    Meu código após ver o funcionamento do programa do professor Guanabara (esse não ficou tão diferente do anterior):
 
-def leiaInt():
+def leiaInt(entrada):
     print('-' * 30)
     while True:
         não = False
-        res = str(input('\033[mDigite um número: '))
+        res = str(input(f'\033[m{entrada} '))
         for l in res:
             if l not in '0123456789':
                 não = True
                 break
-        if não:
+        if não or len(res) < 1:
             print('\033[31mERRO! Digite um número válido.')
         else:
             break
@@ -36,7 +36,7 @@ def leiaInt():
 
 
 # Programa principal
-n = leiaInt()
+n = leiaInt('Digite um número: ')
 print(f'Você acabou de digitar o número {n}')
 
 #    Código do professor Guanabara:
