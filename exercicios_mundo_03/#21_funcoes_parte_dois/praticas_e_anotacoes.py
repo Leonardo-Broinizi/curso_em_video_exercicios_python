@@ -100,32 +100,32 @@ pedindo para que a função use a variável global ao invés de criar uma nova l
 
 # Exemplo 1:
 
-'''def teste():
+'''def teste_ex111():
     x = 8 # variável local, só pode ser acessada nessa função
     n = 5 # esse n não é o mesmo que o da variável global, declarado no programa principal, e sim uma nova variável de escopo local.
-    print(f'Na função teste, n vale {n}')
-    print(f'Na função teste, x vale {x}')
+    print(f'Na função teste_ex111, n vale {n}')
+    print(f'Na função teste_ex111, x vale {x}')
 
 # Programa Principal
 n = 2 # variável global, vale em qualquer parte do código.
 print(f'No programa principal, n vale {n}')
-teste()
+teste_ex111()
 print(f'No programa principal, n vale {n}')
 # print(f'No programa principal, x vale {x}') # se essa linha for executada, o código dará erro, pois essa variável não existe fora da função em que foi criada.'''
 
 # Exemplo 2:
 
-'''def teste():
+'''def teste_ex111():
     x = 8
     global n # Essa alteração fez com que o código se comportasse de maneira diferente do anterior, pois agora a variável 'n' é a global, mesmo aqui, dentro da função.
     n = 3 
-    print(f'Na função teste, n vale {n}')
-    print(f'Na função teste, x vale {x}')
+    print(f'Na função teste_ex111, n vale {n}')
+    print(f'Na função teste_ex111, x vale {x}')
 
 # Programa Principal
 n = 2
 print(f'No programa principal, n vale {n}')
-teste()
+teste_ex111()
 print(f'No programa principal, n vale {n}')
 '''
 

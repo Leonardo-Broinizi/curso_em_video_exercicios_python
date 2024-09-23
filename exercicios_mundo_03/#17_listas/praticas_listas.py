@@ -95,14 +95,14 @@ print(pessoas[2])
 print(pessoas[0][0])
 print(pessoas[1][1][2])'''
 
-'''teste = list()
-teste.append('Leonardo')
-teste.append(32)
+'''teste_ex111 = list()
+teste_ex111.append('Leonardo')
+teste_ex111.append(32)
 galera = []
-galera.append(teste[:]) # É importante não esquecer que, caso se faça uma cópia de uma lista, ambas estarão ligadas,
+galera.append(teste_ex111[:]) # É importante não esquecer que, caso se faça uma cópia de uma lista, ambas estarão ligadas,
 # e o que for feito a uma será autamaticamente feiro a outra. Para evitar essa ligação, quando não for desejada,
 # é que fazemos uma cópia apenas dos dado da outra lista, usando o índice desse modo [:].
-teste[0] = 'Maria'
-teste[1] = 22
-galera.append(teste[:])
+teste_ex111[0] = 'Maria'
+teste_ex111[1] = 22
+galera.append(teste_ex111[:])
 print(galera)'''

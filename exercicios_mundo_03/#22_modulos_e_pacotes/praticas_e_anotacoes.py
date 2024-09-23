@@ -6,6 +6,11 @@
 # principal, e, como eu estava separando os módulos por pastas, com os exercícios dentro de outras
 # pastas, precisei adaptar as coisas para conseguir fazer os exercícios.
 
+#   Obs.: criei uma pasta chamada 'test_ex111' para verificar se os erros ao tentar fazer as importações
+# tal qual o professor Guanabara eram por conta de estar usando pastas dentro de pastas, e realmente era,
+# pois nessa pasta, que criei fora das minhas pastas de exercícios dentro das minhas pastas do mundo 3,
+# as importações funcionaram corretamente.
+
 #    Modularização é dividir o código em módulos, mais especificamente deixar as funções criadas em
 # arquivos separados e acessá-las via importação como já vinhamos acessando os módulos internos do Python
 # durante o curso, com a importação do módulo inteiro (ex. import time) ou de uma ou mais funções específicas
