@@ -38,7 +38,7 @@ Brasil = list()
 for c in range(0, 3):
     estado['uf'] = str(input('Unidade Federativa: '))
     estado['sigla'] = str(input('Sigla do estado: '))
-    Brasil.append(estado.copy())   # Método para copiar os dados de um dicionário sem criar uma ligação entre eles.
+    Brasil.append(estado.copy())   # Método para copiar os dado de um dicionário sem criar uma ligação entre eles.
 for estado in Brasil:
     for key, value in estado.items():
         print(f'O campo {key} tem o valor {value}')

@@ -26,7 +26,7 @@ for p, cad in enumerate(jogadores):
 while True:
     print('-' * 49)
     while True:
-        res = int(input('  Mostrar dados de qual jogador? [999 para SAIR]: '))
+        res = int(input('  Mostrar dado de qual jogador? [999 para SAIR]: '))
         if res >= len(jogadores) and res != 999:
             print('VALOR INCORRETO! Tente novamente.')
         else:

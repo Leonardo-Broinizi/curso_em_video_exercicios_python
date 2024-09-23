@@ -1,5 +1,5 @@
 #   Tuplas são IMUTÁVEIS!!!
-#   Tuplas aceitam dados de tipos diferentes (int, float, str).
+#   Tuplas aceitam dado de tipos diferentes (int, float, str).
 #   Tuplas podem ser deletadas com o método 'del'.
 
 #   As tuplas são imutáveis quando o código está rodando. Só podem ser editadas, obviamente, enquanto  estamos formando o código.

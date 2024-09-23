@@ -83,13 +83,13 @@ print(listaB)'''
 
 #   Analisando índices de listas dentro de lista (dentro de listas rs):
 
-'''dados = list()
-dados.append('Pedro')
-dados.append(25)
-print(dados[0])
-print(dados[1])
+'''dado = list()
+dado.append('Pedro')
+dado.append(25)
+print(dado[0])
+print(dado[1])
 pessoas = list()
-pessoas.append(dados[:])
+pessoas.append(dado[:])
 pessoas = [['Pedro',25],['Maria',[9,7,5,3],19],['João',32]]
 print(pessoas[2])
 print(pessoas[0][0])
@@ -101,7 +101,7 @@ teste.append(32)
 galera = []
 galera.append(teste[:]) # É importante não esquecer que, caso se faça uma cópia de uma lista, ambas estarão ligadas,
 # e o que for feito a uma será autamaticamente feiro a outra. Para evitar essa ligação, quando não for desejada,
-# é que fazemos uma cópia apenas dos dados da outra lista, usando o índice desse modo [:].
+# é que fazemos uma cópia apenas dos dado da outra lista, usando o índice desse modo [:].
 teste[0] = 'Maria'
 teste[1] = 22
 galera.append(teste[:])

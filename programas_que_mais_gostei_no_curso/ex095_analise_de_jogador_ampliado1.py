@@ -30,7 +30,7 @@ for p, cad in enumerate(jogadores):
 while True:
     print('-' * 57)
     while True:
-        res = int(input('  Mostrar dados de qual jogador? [999 para SAIR]: '))
+        res = int(input('  Mostrar dado de qual jogador? [999 para SAIR]: '))
         if res > len(jogadores) and res != 999 or res == 0:
             print('\nVALOR INCORRETO! Tente novamente.\n')
         else:
@@ -80,7 +80,7 @@ for k, v in enumerate(time):
     print()
 print('-' * 40)
 while True:
-    busca = int(input('Mostrar dados de qual jogador? (999 para parar) '))
+    busca = int(input('Mostrar dado de qual jogador? (999 para parar) '))
     if busca == 999:
         break
     if busca >= len(time):

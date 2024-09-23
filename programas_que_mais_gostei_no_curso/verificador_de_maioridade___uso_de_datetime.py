@@ -1,7 +1,7 @@
 ''' # Primeira tentativa:
 from datetime import date
 data_atual = date.today()
-ano = int('{}'.format(data_atual.year)) # É importante decorar essa e outras formas de manipular os dados vindos de datetime (e de outros módulos, se for possível).
+ano = int('{}'.format(data_atual.year)) # É importante decorar essa e outras formas de manipular os dado vindos de datetime (e de outros módulos, se for possível).
 m = 0
 for i in range(7):
     a = int(input(f'Digite o ano de nascimento da {i+1}ª pessoa: '))

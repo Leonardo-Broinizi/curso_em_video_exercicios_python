@@ -27,7 +27,7 @@ else:
 
 #    Código do professor Guanabara (ficou mais enxuto do que o meu segundo e fez o programa sempre exibir um número no campo de gols, coisa que o meu não fez):
 
-'''def ficha(jog='<desconhecido>', gol=0):
+def ficha(jog='<desconhecido>', gol=0):
     print(f'O jogador {jog} fez {gol} gol(s) no campeonato.')
 
 # Programa Principal
@@ -40,4 +40,6 @@ else:
 if n.strip() == '':
     ficha(gol=g)
 else:
-    ficha(n, g)'''
+    ficha(n, g)
+
+

@@ -153,7 +153,7 @@ print(f'O fatorial de {num} é {f}')'''
 
 # Código do professor:
 
-def fatorial(num=1):
+'''def fatorial(num=1):
     f = 1
     for c in range(num, 0, -1):
         f *= c
@@ -161,3 +161,5 @@ def fatorial(num=1):
 
 n = int(input('Digite um número: '))
 print(f'O fatorial de {n} é igual a {fatorial(n)}')
+'''
+

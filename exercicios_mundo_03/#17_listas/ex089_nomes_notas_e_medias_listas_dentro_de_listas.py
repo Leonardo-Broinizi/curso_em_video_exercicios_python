@@ -17,7 +17,7 @@ for p, nomes in enumerate(boletim[0]):
 
 #   Considerações após assistir o vídeo de resposta do professor: O código do professor já leva a média calculada dentro
 # da lista, coisa que não fiz. Por esse ponto ele é mais completo que o meu. Também a forma como o código do professor
-# incorpora os dados na lista completa também foi mais engenhoso e eficiente que o meu, já que fazia entrar de uma vez
+# incorpora os dado na lista completa também foi mais engenhoso e eficiente que o meu, já que fazia entrar de uma vez
 # uma lista com nome, outra lista com ambas as notas, e a média, por vez. Meu código vazia entrar uma lista com nome e outra lista com
 # as notas.
 
