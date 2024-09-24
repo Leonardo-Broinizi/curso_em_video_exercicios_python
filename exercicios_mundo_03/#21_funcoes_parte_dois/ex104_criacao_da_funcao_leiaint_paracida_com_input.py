@@ -43,7 +43,7 @@ print(f'Você acabou de digitar o número {n}')'''
 # mas fico feliz por ainda assim ter encontrado uma solução.
 #    Código do professor Guanabara:
 
-'''def leiaInt(msg):
+def leiaInt(msg):
     print('-' * 30)
     ok = False
     while True:
@@ -59,4 +59,4 @@ print(f'Você acabou de digitar o número {n}')'''
 
 # Programa principal
 n = leiaInt('Digite um número: ')
-print(f'Você acabou de digitar o número {n}')'''
+print(f'Você acabou de digitar o número {n}')
