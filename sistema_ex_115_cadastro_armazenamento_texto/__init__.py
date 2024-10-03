@@ -19,28 +19,26 @@ def menu_principal(cad=None):
             except:
                 print('\033[31mERRO: digite um número válido!\033[m\033[1m')
         if opção == 1:
-            cadastradas(cad)
+            cadastradas()
         elif opção == 2:
-            cad = cadastrar_novos(cad)
+            cabeçalho('NOVO CADASTRO')
+            cad = cadastrar_novos()
         elif opção == 3:
+            cabeçalho('SAINDO DO SISTEMA... ATÉ LOGO!')
             break
         else:
             print('\033[31mERRO! Por favor, digite uma opção válida.\033[m\033[1m')
-    return {'OIA':2}
 
-def cadastradas(cad_mostrar):
+def cadastradas():
     cabeçalho('PESSOAS CADASTRADAS')
-    if type(cad_mostrar) != dict:
+    with open('cadastro_ex115.txt', 'r') as arquivo:
+        cadastro = arquivo.read()
+    if len(cadastro) < 1:
         print('Ainda não há pessoas cadastradas!')
     else:
-        for chave, valor in cad_mostrar.items():
-            if valor > 1:
-                print(f'{chave:<50} {valor:>3} anos')
-            else:
-                print(f'{chave:<50} {valor:>3}  ano')
+        print(cadastro)
 
-def cadastrar_novos(cad_novos):
-    cabeçalho('NOVO CADASTRO')
+def cadastrar_novos():
     while True:
         nome = str(input('Nome: ')).strip()
         if len(nome) == 0:
@@ -50,10 +48,13 @@ def cadastrar_novos(cad_novos):
     while True:
         try:
             idade = int(input('Idade: '))
+            if idade < 0:
+                idade = +-idade
         except:
             print(f'\033[31mERRO: digite sua idade.\033[m\033[1m')
             continue
         break
-    cad_novos[nome] = idade
-    return cad_novos
+
+    with open('cadastro_ex115.txt', 'a') as arquivo:
+        arquivo.write(f'\n{nome:<51} {idade:>3} anos')
 

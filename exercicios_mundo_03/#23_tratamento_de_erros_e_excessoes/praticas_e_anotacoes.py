@@ -24,7 +24,7 @@ finally:
 
 #    Segundo exemplo:
 
-try:
+'''try:
     a = int(input('Digite um valor: '))
     b = int(input('Digite outro valor: '))
     r = a / b
@@ -40,3 +40,4 @@ else:
     print(f'O resultado é {r:.1f}')
 finally:
     print('Volte sempre!')
+'''
