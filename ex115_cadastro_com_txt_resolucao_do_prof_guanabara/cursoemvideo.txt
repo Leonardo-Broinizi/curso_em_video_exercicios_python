@@ -1,5 +1,5 @@
-Gustavo;41
-Ana;22
-Pedro;35
-Paulo;95
-José;55
+José ;35
+Gustavo ;41
+Maria;85
+José Manuel;65
+Ítalo Ântenor;34
